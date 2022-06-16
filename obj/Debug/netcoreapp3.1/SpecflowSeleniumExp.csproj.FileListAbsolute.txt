@@ -454,3 +454,4 @@ C:\workspace\Specflow-Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.cspr
 C:\workspace\Specflow-Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.dll
 C:\workspace\Specflow-Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.pdb
 C:\workspace\Specflow-Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.genruntimeconfig.cache
+C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\TestData.json
