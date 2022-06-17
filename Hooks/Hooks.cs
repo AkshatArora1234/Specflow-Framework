@@ -31,7 +31,7 @@ namespace SpecflowSeleniumExp.Hooks
             new DriverManager().SetUpDriver(new ChromeConfig());
             Console.WriteLine("Setup");
             _driverHelper.driver = new ChromeDriver(option);
-            using (var driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), option)) ;
+        //    using (var driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), option)) ;
         }
 
         [AfterScenario]

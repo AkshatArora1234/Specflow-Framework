@@ -302,10 +302,11 @@ C:\framework15\Specflow--Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.c
 C:\framework15\Specflow--Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.dll
 C:\framework15\Specflow--Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.pdb
 C:\framework15\Specflow--Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.genruntimeconfig.cache
-C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\testhost.exe
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\testhost.dll
-C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\chromedriver.exe
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\testhost.exe
+C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\chromedriver.exe
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\nunit.engine.dll
@@ -313,7 +314,7 @@ C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\testcentric.engine.metadata.dll
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\appsetting.json
-C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\TestData.json
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\SpecflowSeleniumExp.deps.json
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\SpecflowSeleniumExp.runtimeconfig.json
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\SpecflowSeleniumExp.runtimeconfig.dev.json
@@ -454,4 +455,3 @@ C:\workspace\Specflow-Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.cspr
 C:\workspace\Specflow-Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.dll
 C:\workspace\Specflow-Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.pdb
 C:\workspace\Specflow-Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.genruntimeconfig.cache
-C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\TestData.json
