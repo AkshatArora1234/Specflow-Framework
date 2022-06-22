@@ -41,13 +41,18 @@ namespace SpecflowSeleniumExp.PageObjects
         public void ClickBtnSignIn()
 
         {
-            
+            try
+            {
                 BtnSignIn.Click();
-            
-           
-            
+            }
+
+
+            catch
+            {
                 ((ITakesScreenshot)Driver)
                 .GetScreenshot().SaveAsFile("Screenshot.png", ScreenshotImageFormat.Png);
+            }
+
             
 
         }
