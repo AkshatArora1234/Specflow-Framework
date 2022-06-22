@@ -143,7 +143,6 @@ C:\workspace\Specflow-Framework\bin\Release\netcoreapp3.1\runtimes\win\lib\netst
 C:\workspace\Specflow-Framework\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\workspace\Specflow-Framework\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\workspace\Specflow-Framework\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
-C:\workspace\Specflow-Framework\obj\Release\netcoreapp3.1\SpecflowSeleniumExp.csproj.AssemblyReference.cache
 C:\workspace\Specflow-Framework\obj\Release\netcoreapp3.1\SpecflowSeleniumExp.AssemblyInfoInputs.cache
 C:\workspace\Specflow-Framework\obj\Release\netcoreapp3.1\SpecflowSeleniumExp.AssemblyInfo.cs
 C:\workspace\Specflow-Framework\obj\Release\netcoreapp3.1\SpecflowSeleniumExp.csproj.CoreCompileInputs.cache
