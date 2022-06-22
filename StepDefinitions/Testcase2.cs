@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using OpenQA.Selenium;
 using SpecflowSeleniumExp.PageObjects;
+using System;
 using TechTalk.SpecFlow;
 
 namespace SpecflowSeleniumExp.StepDefinitions
@@ -29,11 +30,16 @@ namespace SpecflowSeleniumExp.StepDefinitions
         public void WhenIAddToTheSearchBox(string p0)
         {
 
-            
+            try
+            {
                 homePage.Search();
-            //capture screenshot along file name
-            ((ITakesScreenshot)_driverHelper.driver)
-            .GetScreenshot().SaveAsFile("Screenshot.png", ScreenshotImageFormat.Png);
+            }
+            catch (Exception e)
+            {
+                //capture screenshot along file name
+                ((ITakesScreenshot)_driverHelper.driver)
+                .GetScreenshot().SaveAsFile("Screenshot.png", ScreenshotImageFormat.Png);
+            }
 
         }
         
