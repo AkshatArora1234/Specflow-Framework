@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using NUnit.Framework;
 
 namespace SpecflowSeleniumExp.PageObjects
 {
@@ -23,8 +24,8 @@ namespace SpecflowSeleniumExp.PageObjects
 
         IWebElement Txtpassword => Driver.FindElement(By.XPath("//*[@id='password']"));
 
-        IWebElement BtnSignIn => Driver.FindElement(By.XPath("//div[@class='form-group text-center']//button"));
-        IWebElement Searchbar => Driver.FindElement(By.XPath("//input[@placeholder='Search learning paths and courses1']"));
+        IWebElement BtnSignIn => Driver.FindElement(By.XPath("//div[@class='form-group text-center']//button111"));
+        IWebElement Searchbar => Driver.FindElement(By.XPath("//input[@placeholder='Search learning paths and courses']"));
         IWebElement Searchbutton => Driver.FindElement(By.XPath("(//span[@class='input-group-text'])[1]"));
 
         //Actions
@@ -37,13 +38,34 @@ namespace SpecflowSeleniumExp.PageObjects
             Txtpassword.SendKeys(config["password"]);
         }
 
-        public void ClickBtnSignIn() => BtnSignIn.Click();
+        public void ClickBtnSignIn()
+
+        {
+            
+                BtnSignIn.Click();
+            
+           
+            
+                ((ITakesScreenshot)Driver)
+                .GetScreenshot().SaveAsFile("Screenshot.png", ScreenshotImageFormat.Png);
+            
+
+        }
 
         public void Search()
         {
-            var configBuilder = new ConfigurationBuilder().AddJsonFile("TestData.json");
-            IConfiguration config = configBuilder.Build();
-            Searchbar.SendKeys(config["searchData"]);
+            try
+            {
+                var configBuilder = new ConfigurationBuilder().AddJsonFile("TestData.json");
+                IConfiguration config = configBuilder.Build();
+                Searchbar.SendKeys(config["searchData"]);
+                Assert.AreEqual(config["searchData"], "selenium1");
+            }
+            catch
+            {
+                Console.WriteLine("Test case failed");
+            }
+
         }
         public void ClickSearchbutton() => Searchbutton.Click();
 

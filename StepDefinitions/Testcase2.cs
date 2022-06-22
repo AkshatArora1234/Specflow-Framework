@@ -30,16 +30,10 @@ namespace SpecflowSeleniumExp.StepDefinitions
         public void WhenIAddToTheSearchBox(string p0)
         {
 
-            try
-            {
+            
                 homePage.Search();
-            }
-            catch (Exception e)
-            {
-                //capture screenshot along file name
-                ((ITakesScreenshot)_driverHelper.driver)
-                .GetScreenshot().SaveAsFile("Screenshot.png", ScreenshotImageFormat.Png);
-            }
+            
+           
 
         }
         

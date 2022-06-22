@@ -302,11 +302,11 @@ C:\framework15\Specflow--Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.c
 C:\framework15\Specflow--Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.dll
 C:\framework15\Specflow--Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.pdb
 C:\framework15\Specflow--Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.genruntimeconfig.cache
+C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\chromedriver.exe
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\testhost.dll
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\testhost.exe
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
-C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\chromedriver.exe
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\nunit.engine.dll
@@ -447,7 +447,6 @@ C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstan
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\workspace\Specflow-Framework\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
-C:\workspace\Specflow-Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.csproj.AssemblyReference.cache
 C:\workspace\Specflow-Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.AssemblyInfoInputs.cache
 C:\workspace\Specflow-Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.AssemblyInfo.cs
 C:\workspace\Specflow-Framework\obj\Debug\netcoreapp3.1\SpecflowSeleniumExp.csproj.CoreCompileInputs.cache
