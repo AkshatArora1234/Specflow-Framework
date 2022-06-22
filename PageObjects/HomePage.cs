@@ -68,7 +68,10 @@ namespace SpecflowSeleniumExp.PageObjects
             }
             catch
             {
+                ((ITakesScreenshot)Driver)
+               .GetScreenshot().SaveAsFile("Screenshot.png", ScreenshotImageFormat.Png);
                 Console.WriteLine("Test case failed");
+
             }
 
         }
