@@ -1,8 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
-using NUnit.Framework;
 using OpenQA.Selenium;
 using SpecflowSeleniumExp.PageObjects;
-using System;
 using TechTalk.SpecFlow;
 
 namespace SpecflowSeleniumExp.StepDefinitions
@@ -30,17 +28,13 @@ namespace SpecflowSeleniumExp.StepDefinitions
         [When(@"I add ""(.*)"" to the search box")]
         public void WhenIAddToTheSearchBox(string p0)
         {
-            try
-            {
-                homePage.Search();
-            }
 
-            catch(Exception e)
-            {
-                var filepath = $"{TestContext.CurrentContext.TestDirectory}\\{TestContext.CurrentContext.Test.MethodName}.jpg";
-                ((ITakesScreenshot)_driverHelper).GetScreenshot().SaveAsFile(filepath);
-                TestContext.AddTestAttachment(filepath);
-            }
+            
+                homePage.Search();
+            //capture screenshot along file name
+            ((ITakesScreenshot)_driverHelper.driver)
+            .GetScreenshot().SaveAsFile("Screenshot.png", ScreenshotImageFormat.Png);
+
         }
         
         [When(@"click the Search Button")]
