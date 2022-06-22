@@ -65,12 +65,13 @@ namespace SpecflowSeleniumExp.PageObjects
                 IConfiguration config = configBuilder.Build();
                 Searchbar.SendKeys(config["searchData"]);
                 Assert.AreEqual(config["searchData"], "selenium1");
+                
             }
-            catch
+            finally
             {
+
                 ((ITakesScreenshot)Driver)
                .GetScreenshot().SaveAsFile("Screenshot.png", ScreenshotImageFormat.Png);
-                Console.WriteLine("Test case failed");
 
             }
 
