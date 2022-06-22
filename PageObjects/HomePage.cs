@@ -24,7 +24,7 @@ namespace SpecflowSeleniumExp.PageObjects
         IWebElement Txtpassword => Driver.FindElement(By.XPath("//*[@id='password']"));
 
         IWebElement BtnSignIn => Driver.FindElement(By.XPath("//div[@class='form-group text-center']//button"));
-        IWebElement Searchbar => Driver.FindElement(By.XPath("//input[@placeholder='Search learning paths and courses']"));
+        IWebElement Searchbar => Driver.FindElement(By.XPath("//input[@placeholder='Search learning paths and courses1']"));
         IWebElement Searchbutton => Driver.FindElement(By.XPath("(//span[@class='input-group-text'])[1]"));
 
         //Actions
